@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: #ddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 80px auto 0 auto;
+  max-width: 1200px;
+}
+
+.nav-container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container svg {
+  color: #fff;
+}
+
+.logoLinkWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catSpaceLogo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.catSpaceLogo:hover {
+  content: url("images/neutralCat.png");
+}
+
+.catSpaceLogo:active {
+  content: url("images/upsetCat.png");
+}
+
+.catSpaceLogoText {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.navIconLinks {
+  margin-right: 30px;
+}
+
+.navLinks {
+  margin-right: 30px;
+}
